@@ -1,0 +1,101 @@
+.p {
+  width: 30%;
+  margin: 20px 10px;
+  border: 2px solid rgb(243, 242, 242);
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+
+.p-browser {
+  height: 20px;
+  background-color: rgb(243, 242, 242);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  z-index: 2;
+}
+
+.p-circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 3px;
+}
+
+.p-img {
+  width: 100%;
+  transition: all 10s ease;
+}
+
+.p:hover .p-img {
+
+}
+
+@media screen and (max-width: 480px) {
+  .p {
+    width: 40%;
+    height: 20vh;
+  }
+}
+
+.tag {
+  border-radius: 10px;
+  padding: 1px 15px 1px 15px;
+  margin: 15px 5px 5px 5px;
+  font-weight: 100;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+  font-size: 14px;
+  display: inline-block
+}
+
+.tagHtml {
+  border: 2px solid #f06529;
+}
+
+.tagCss {
+  border: 2px solid #2965f1;
+
+}
+
+.tagJavascript {
+  border: 2px solid #f0db4f;
+
+}
+
+.tagReact {
+  border: 2px solid #61DBFB;
+}
+
+.tagWordpress {
+  border: 2px solid #127baa;
+}
+
+.tagElementor {
+  border: 2px solid #FF7BE5;
+}
+
+.tagAdobe {
+  border: 2px solid #3c240c;
+}
+
+.tagFigma {
+  border: 2px solid #0acf83;
+}
+
+.titleProduct {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.descProduct {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.productContainer {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 5px;
+  margin: 10px;
+}
